@@ -1,0 +1,338 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>UCGIS-Buffalo</title>
+ 
+ <!-- CSS -->
+ <link rel="stylesheet" href="css/normalize.css">
+ <link rel="stylesheet" href="css/style.css"> 
+ <link rel="stylesheet" href="css/nivo-slider.css"> 
+ <link rel="stylesheet" href="css/validation.css">  
+ 
+ 
+  
+ <!-- Jquery magic -->
+ <script src="js/jquery-1.6.4.min.js"></script>
+ 
+ <script src="js/jquery.easing.1.3.js"></script>
+ <script src="js/jquery.nivo.slider.pack.js"></script> 
+ <script src="js/jquery.scrollTo-min.js"></script> 
+ <script src="js/zoombox.js"></script> 
+ <script src="js/validation.js"></script>
+ 
+ <script src='js/main.js'></script>
+
+
+
+ <script language="javascript" type="text/javascript">
+     function showHide(shID) {
+         if (document.getElementById(shID)) {
+             if (document.getElementById(shID + '-show').style.display != 'none') {
+                 document.getElementById(shID + '-show').style.display = 'none';
+                 document.getElementById(shID).style.display = 'block';
+             }
+             else {
+                 document.getElementById(shID + '-show').style.display = 'inline';
+                 document.getElementById(shID).style.display = 'none';
+             }
+         }
+     }
+
+     function showDiv(MenuIndex) {
+
+         document.getElementById("Home").style.display = "none";
+         document.getElementById("Education").style.display = "none";
+         document.getElementById("Research").style.display = "none";
+         document.getElementById("Teaching").style.display = "none";
+         document.getElementById("Award").style.display = "none";
+         document.getElementById("Contact").style.display = "none";
+         
+
+
+         var tbox = document.getElementById(MenuIndex);
+         tbox.style.display =  "" ;
+     }   
+</script>
+</head>
+
+<body>
+
+<div class="BackgroundPicture" >		
+
+ <div class="outheader">
+    <a  href="http://www.buffalo.edu/"><img src="images/banner.jpg" width="1895" height="44" alt="University at Buffalo, The State University of New York"/></a>
+</div>
+
+
+<section id="MainSection">
+
+     <div id="UCGISmenu">
+		<li><a href="#Home" title="Home" onclick="showDiv('Home')">Home</a></li>
+		<li><a href="#Education" title="Education" onclick="showDiv('Education')">Education</a></li>
+		<li><a href="#Research" title="Research" onclick="showDiv('Research')">Research </a></li>
+		<li><a href="#Teaching" title="Teaching" onclick="showDiv('Teaching')">Teaching </a></li>
+		<li><a href="#Award" title="Award" onclick="showDiv('Award')">Award </a></li>
+		<li><a href="#Contact" title="Contact" onclick="showDiv('Contact')">Contact</a></li>
+
+         <div id="news">
+
+      <li class="port">
+       <ul class="contact-info">
+      <li>Shiran Zhong</li>
+      <li class="address">132 Wilkeson Quad</li>
+	  <li class="phone">716-645-3834 </li>
+	  <li class="email">shiranzh@buffalo.edu</li>
+     </ul>
+	  </li>
+
+      </div>
+
+
+      </div>
+
+     
+
+<div class="right_column">
+
+
+ <div id="Home"   > 
+    <div class="tiny-margin padding">
+    
+   <div class="intro-section">
+    <div class="padding">
+	  <h1><span>Home</span></h1>
+	 <div class="two-third">
+	  <h2><p> </p></h2>
+	 </div>
+	</div>   
+    </div>
+
+    <div class="tiny-margin-padding">
+     <div class="tiny-margin padding">
+    <div class="one-half">
+     <a href="images/Shiran_Large.jpg" class="zoomboxP" title="Shiran Zhong">
+	  <img src="images/Shiran.jpg"  alt="Insanely Great" />
+	  <div class="zoomHome">
+	   <img src="images/zoomHome.png" alt="zoom icon" />
+	  </div> 
+	 </a>  
+ </div>  
+ </div>
+
+     <div class="margin padding">
+
+     <h2>Shiran Zhong</h2>
+     <p>PhD student in Department of Geography, University at Buffalo.
+       <ul class="contact-info">
+     <li class="address">Office: 132 Wilkeson Quad</li>
+	  <li class="phone">Tel: 716-645-3834 </li>
+	  <li class="email">Email: shiranzh@buffalo.edu</li>
+     </ul>
+
+   
+
+   </div>
+
+
+     
+    </div>
+   
+    </div>
+    </div>
+
+
+<div id="Education"   > 
+    <div class="tiny-margin padding">
+    
+   <div class="intro-section">
+    <div class="padding">
+	  <h1><span>Education</span></h1>
+	 <div class="two-third">
+	  <h2><p> </p></h2>
+	 </div>
+	</div>   
+    </div>
+
+    <div class="tiny-margin-padding">
+    
+
+     <div class="margin padding">
+
+     <p>● Aug.2013-Present: PhD student in Department of Geography, University at Buffalo.
+     <p>Committee members: Ling Bian, Sara Metcalf, and Peter Rogerson</p><br />
+     <p>● Aug.2011-Jun.2013: M.S. in Department of Geography, University at Buffalo.
+     <p>Committee members: Ling Bian, Sara Metcalf, and Enki Yoo</p>
+     <p>Thesis: Analysis of Dynamic Networks of Influenza Transmissions</p><br />
+     <p>● Aug.2007-Jun.2011: B.S. in Software Engineering, Wuhan University, China.
+     <p>Thesis: Distributed platform for geographic information service based on ArcGIS Server and OGC</p><br />
+
+   </div>
+
+
+     
+    </div>
+   
+    </div>
+    </div>
+
+
+ <div id="Research" style="display:none">  
+    <div class="intro-section">
+    <div class="padding">
+	 <div class="one-third ">
+	  <h1><span>Research </span></h1>
+	 </div>
+	 <div class="two-third">
+	 </div>
+	</div>   
+   </div>
+    
+     <div class="margin padding">
+    <h2>Research Interest</h2><br />
+    <p>
+     ● Pattern Discovery of Disease Transmissions<br />
+     ● Spatial Networks<br />
+     ● Temporal Networks<br />
+     ● Evolution Analysis of Dynamic Networks<br />
+     </p>
+   </div>	
+
+
+ <div class="margin padding">
+    <h2>Publication</h2><br />
+    <p>
+     ● Coming soon...<br />
+     </p>
+   </div>	
+
+
+ </div>  
+
+
+ <div id="Teaching" style="display:none">  
+    <div class="margin padding">
+    <div class="intro-section">
+    <div class="padding">
+	  <h1><span>Teaching</span></h1>
+	 <div class="two-third">
+	  <h2><p> </p></h2>
+	 </div>
+	</div>   
+    </div>
+    
+    	
+    <div class="margin padding">
+
+     <p>● GEO479/559 Environmental Modelling Lab Section<br /><br />
+     ● GEO483/553 Remote Sensing Lab Section</p>
+   </div>
+
+
+      <div class="margin padding">
+    <h2>Community Service</h2><br />
+    <p>
+     ● 2014-Now: Treasure of Geography Graduate Student Association (GGSA)<br />
+     </p>
+   </div>	
+
+
+
+    </div>
+
+   
+    
+ </div>
+
+
+ <div id="Award" style="display:none"> 
+ 
+    <div class="margin padding">
+  
+<div class="intro-section">
+    <div class="padding">
+	  <h1><span>Award</span></h1>
+	 <div class="two-third">
+	  <h2><p> </p></h2>
+	 </div>
+	</div>   
+    </div>
+
+     <div class="margin padding">
+     <p>
+     ● 2013-2014 and 2014-2015: Dean's Fellowship of University at Buffalo<br /><br />
+     ● 2007-2008 and 2008-2009: Chinese National Merit Scholarship<br />
+     </p>
+   </div>
+   
+  
+ </div>  
+ </div>
+
+
+ <div id="Contact" style="display:none">  
+    <section id="Contact">
+   <div class="intro-section">
+    <div class="padding">
+	 <div class="one-third ">
+	  <h1><span>CONTACT</span></h1>
+	 </div>
+	 <div class="two-third">
+	  <p></p>
+	 </div>
+	</div>   
+   </div>
+   <div class="margin padding">
+    <div class="one-half">
+     <div id="contact-form" class="clearfix">
+      
+      <form class="half-tiny-margin" method="post">
+      <iframe width="425" height="350" frameborder=1 scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=43.009025,-78.783581&amp;num=1&amp;hl=en&amp;ie=UTF8&amp;ll=43.008186,-78.781382&amp;spn=0.105187,0.2635&amp;t=m&amp;z=13&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=43.009025,-78.783581&amp;num=1&amp;hl=en&amp;ie=UTF8&amp;ll=43.008186,-78.781382&amp;spn=0.105187,0.2635&amp;t=m&amp;z=13&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+      </form>
+
+     </div>
+    </div>
+    <div class="second-half">
+	<!-- Edit these lines to your info -->
+     <h2>&nbsp;Shiran Zhong</h2>
+     <ul class="contact-info">
+     <text>
+	  <li class="address">University at Buffalo</li>
+	        <li class="address">132 Wilkeson Quad</li>
+            <li>Buffalo, NY 14261-0023</li>
+	  <li class="phone">716-645-3834 </li>
+	  <li class="email">shiranzh@buffalo.edu</li>
+      </text>
+	 </ul>
+	 <ul class="social">
+      <li><a href="https://www.facebook.com/zhongshiran"><img src="images/facebook.png" alt="facebook" /></a></li>
+     </ul>
+    <!-- End Edit -->	 
+    </div>
+   </div> 
+  </section>  
+ </div>  
+ 
+
+</div>
+
+</section>
+
+
+  
+   
+     
+
+ 
+  
+  <!-- Footer -->
+  <footer>
+   <div class="center-wrap">
+    <p class="left">&copy; Copyright 2014. All Rights Reserved.</p>
+    <a class="right" href="#"><img src="images/pointer.png" alt="top" /></a>
+   </div>
+  </footer>
+
+  </div>
+</body>
+</html>
